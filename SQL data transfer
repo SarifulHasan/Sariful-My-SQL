@@ -1,0 +1,26 @@
+Rules to Remember:
+The number of columns in INSERT INTO and SELECT must be the same
+The column order must match
+The SELECT statement can include:
+Table columns
+NULL values
+Fixed values (e.g., 'Unknown')
+Expressions
+
+
+INSERT INTO persons (id, person_name, birth_date, phone)
+SELECT
+    id,
+    first_name,
+    NULL,
+    'Unknown'
+FROM customers;
+
+
+Explanation
+customers → source table
+persons → target table
+id is inserted into id
+first_name is inserted into person_name
+birth_date is set to NULL
+phone is set to 'Unknown'
