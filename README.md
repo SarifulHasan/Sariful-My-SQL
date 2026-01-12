@@ -2,8 +2,9 @@
 # INSERT INTO … SELECT (SQL)
 
 ## 📌 Overview
-`INSERT INTO … SELECT` ka use ek table se data lekar doosre table me insert karne ke liye hota hai.  
-Yeh method bulk data insert karne ke liye simple aur efficient hai.
+`INSERT INTO … SELECT` is used to take data from one table and insert it into another table.
+This method is **simple and efficient** for inserting **bulk data**.
+
 
 ---
 
